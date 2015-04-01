@@ -24,10 +24,11 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/buttonTweet"
         android:layout_marginTop="10dp"
-        android:ems="10"
+        android:ems="15"
         android:hint="@string/hint_status"
         android:imeOptions="actionSend"
-        android:inputType="textMultiLine|textAutoCorrect" >
+        android:inputType="textMultiLine|textAutoCorrect"
+        />
     </EditText>
 
     <TextView
@@ -37,6 +38,7 @@
         android:layout_alignLeft="@+id/editStatus"
         android:layout_alignTop="@+id/buttonTweet"
         android:text="140"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
 
 </RelativeLayout>
